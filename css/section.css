@@ -1,0 +1,131 @@
+#fullpage.no-scroll {
+    overflow-y: hidden;
+    max-height: 100vh;
+}
+
+.section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section.one {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0b/SoFi_Stadium_2021.jpg);
+}
+
+.section.two {
+    background-image: url(../media/gXUClIR.gif);
+}
+
+.section.three {
+    background-image: url(https://i.pinimg.com/originals/2b/b5/28/2bb528aa05ca31b6e64168852f93f949.gif);
+}
+
+.section.four {
+    background-image: url(https://www.hksinc.com/wp-content/uploads/2021/12/Sofi_lake2.gif);
+}
+
+.section.five {
+    background-image: url(https://ca-times.brightspotcdn.com/dims4/default/e3cc0ed/2147483647/strip/true/crop/900x506+0+0/resize/900x506!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F96%2F6e%2Fc1c837864341a88d02c3c2bcaae5%2Fsofi-top.gif);
+}
+
+.section.six {
+    background-image: url(../media/ezgif-2-78eb89bd97.gif);
+}
+
+.section.seven {
+    background-image: url(../media/Screenshot\ from\ 2022-01-10\ 22-44-45.png);
+}
+
+#map {
+    margin-top: 10rem;
+    z-index: -10;
+}
+
+.section__content {
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--primary-color);
+}
+
+.section__content__title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.section__content__subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.Royal_Rumble,
+.Royal_Rumble_subtitle {
+    color: #FFFFFF;
+}
+
+
+/* .contact {
+    color: white;
+    text-shadow: black;
+} */
+
+.section__content__subtitle a {
+    color: inherit;
+}
+
+.section__content__subtitle a:hover {
+    text-decoration: underline;
+}
+
+.section__action__container {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section__action__btn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+    flex-basis: 80%;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    border-radius: 2rem;
+}
+
+.action__btn__primary {
+    background: rgba(15, 31, 51, 0.8);
+    color: white;
+    border: 2px solid white;
+}
+
+.action__btn__secondary {
+    background: rgba(255, 255, 255, 0.8);
+    color: #153151;
+    border: 2px solid black;
+}
+
+.action__btn__primary:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #153151;
+    border: 2px solid black;
+    /* transition: 0.5s linear; */
+}
+
+.action__btn__secondary:hover {
+    background: rgba(15, 31, 51, 0.8);
+    color: white;
+    border: 2px solid black;
+}

@@ -1,0 +1,58 @@
+.header {
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    background-color: #153151;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header__middle {
+    display: flex;
+    align-items: center;
+}
+
+.header__left {
+    display: block;
+    overflow: hidden;
+    padding: 0 2rem;
+}
+
+.header__logo {
+    padding-top: 5%;
+    width: 23rem;
+}
+
+.header__right {
+    margin: auto 0;
+    margin-right: 1rem;
+}
+
+.header__nav__btn {
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    color: white;
+    /* border-radius: 1.5rem; */
+    text-transform: capitalize;
+    transition: 0.3s linear;
+    letter-spacing: 1px;
+}
+
+.header__nav__btn:hover {
+    color: #153151;
+    background-color: #fff;
+}
+
+.header__nav__btn.menu__btn {
+    display: inline-block;
+}
+
+.header__middle .header__nav__btn {
+    margin-right: 2rem;
+}

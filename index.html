@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SoFi Stadium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css" integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/variable.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/section.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+
+<body>
+    <div class="blur__overlay"></div>
+
+    <header class="header">
+        <a class="header__left" href="#">
+            <img class="header__logo" src="media/SoFi_Stadium_Logo.svg.png" alt="" />
+        </a>
+
+        <ul class="header__middle">
+            <li>
+                <li><a class="header__nav__btn" href="#">Home</a></li>
+                <li><a class="header__nav__btn" href="#event">Events</a></li>
+                <li><a class="header__nav__btn" href="#ticket">Tickets</a></li>
+                <li><a class="header__nav__btn" href="#gallery">Gallery</a></li>
+                <li><a class="header__nav__btn" href="#tour">Virtual Tour</a></li>
+                <li><a class="header__nav__btn" href="#contact">Contact Us</a></li>
+            </li>
+        </ul>
+
+        <div class="header__right">
+            <a class="header__nav__btn" href="#" onclick="openForm()">Log in</a>
+            <a class="header__nav__btn menu__btn" href="#">menu</a>
+        </div>
+    </header>
+
+    <div class="form-popup" id="myForm">
+        <form action="#" class="form-container">
+            <h1>Login</h1>
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+            <button type="submit" class="btn">Login</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+
+    <nav class="navigation">
+        <div class="close__btn__container">
+            <img class="navigation__close__btn" src="media/close_icon.svg" alt="" />
+        </div>
+
+        <ul>
+            <li><a class="nav__link" href="https://www.sofistadium.com/planyourvisit/">Safe Stadium Fans Guideline </a></li>
+            <li><a class="nav__link" href="https://www.sofistadium.com/a-to-z-guide/">A to Z Guide </a></li>
+            <li><a class="nav__link" href="https://www.sofistadium.com/sustainability/">Accessibility </a></li>
+            <li><a class="nav__link" href="#">Bag Policy </a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#contact">Contact Us</a></li>
+            <li><a class="nav__link" href="#">Directions </a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#event">Events</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#gallery">Gallery</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#">Home</a></li>
+            <li><a class="nav__link" href="#">Location </a></li>
+            <li><a class="nav__link" href="#">Lost and found </a></li>
+            <li><a class="nav__link" href="https://play.google.com/store/apps/details?id=com.hollywoodparkca.experience">Mobile app</a></li>
+            <li><a class="nav__link" href="https://www.sofistadium.com/parking-information/">Parking</a></li>
+            <li><a class="nav__link" href="media/SoFi-Stadium-Plans_9-8-21.pdf" download="">Stadium map</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="#">Tickets</a></li>
+            <li><a class="nav__link" href="#">Ticket terms</a></li>
+            <li class="link__in__middle"><a class="nav__link" href="https://www.sofistadium.com/stadium-tours/">Virtual Tour</a></li>
+        </ul>
+    </nav>
+
+    <section id="fullpage">
+        <section class="section one">
+            <div class="section__content">
+                <h1 class="section__content__title">Welcome to SoFi Stadium</h1>
+                <h2 class="section__content__subtitle">
+                    Your one destination for the greatest experience
+                </h2>
+            </div>
+
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary" href="#tour">View Tours</a>
+                <a class="section__action__btn action__btn__secondary" href="#event">View Events</a>
+            </div>
+        </section>
+
+        <section class="section two" id="event">
+            <div class="section__content">
+                <h1 class="section__content__title Royal_Rumble">WWE Royal Rumble 2022</h1>
+                <h2 class="section__content__subtitle Royal_Rumble_subtitle">
+                    January 29, 2022
+                </h2>
+            </div>
+
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary" href="https://www.ticketmaster.com/wwe-royal-rumble-tickets/artist/1523676">View Packages</a>
+                <a class="section__action__btn action__btn__secondary" href="https://www.ticketmaster.com/wwe-royal-rumble-st-louis-missouri-01-29-2022/event/06005B45EB705BC2">Book Tickets</a>
+            </div>
+        </section>
+
+        <section class="section three">
+            <div class="section__content">
+                <h1 class="section__content__title Royal_Rumble">WWE WrestleMania 38</h1>
+                <h2 class="section__content__subtitle Royal_Rumble_subtitle">
+                    April 2&3, 2022
+                </h2>
+            </div>
+
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary" href="https://seatgeek.com/wrestlemania-night-1-tickets/wwe/2022-04-02-6-30-pm/5533966?aid=13257&pid=wm38_web&rid=19&utm_medium=partnership&utm_source=att_stadium&utm_campaign=wm38_web">Book for Night 1</a>
+                <a class="section__action__btn action__btn__secondary" href="https://seatgeek.com/wrestlemania-night-2-tickets/wwe/2022-04-03-6-30-pm/5550094?aid=13257&pid=wm38_web&rid=38&utm_medium=partnership&utm_source=att_stadium&utm_campaign=wm38_web">Book for Night 2</a>
+            </div>
+        </section>
+
+        <section class="section four" id="ticket">
+            <div class="section__content">
+                <h1 class="section__content__title">Ticket Counter</h1>
+                <h2 class="section__content__subtitle">
+                    Book your tickets now!! and be a part of history.
+                </h2>
+            </div>
+
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary" href="https://www.ticketmaster.com/">visit TicketMaster</a>
+                <a class="section__action__btn action__btn__secondary" href="https://in.bookmyshow.com/">visit BookMyShow</a>
+            </div>
+        </section>
+
+        <section class="section five" id="gallery">
+            <div class="section__content">
+                <h1 class="section__content__title  Royal_Rumble">Gallery</h1>
+                <h2 class="section__content__subtitle Royal_Rumble_subtitle">
+                    The best experience in all of America
+                </h2>
+            </div>
+
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary" href="#">View gallery</a>
+                <a class="section__action__btn action__btn__secondary" href="https://www.sofistadium.com/">Learn more</a>
+            </div>
+        </section>
+
+        <section class="section six" id="tour">
+            <div class="section__content">
+                <h1 class="section__content__title Royal_Rumble">SoFi Stadium</h1>
+                <h2 class="section__content__subtitle Royal_Rumble_subtitle">
+                    Virtual Tour
+                </h2>
+            </div>
+
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary" href="https://www.youtube.com/results?search_query=sofi+stadium">YouTube</a>
+                <a class="section__action__btn action__btn__secondary" href="media/SoFi-Stadium-Plans_9-8-21.pdf" download="">download Stadium map</a>
+            </div>
+        </section>
+
+        <section class="section seven" id="contact">
+            <div class="section__content">
+                <h1 class="section__content__title contact">Contact us</h1>
+            </div>
+            <div class="section__action__container">
+                <a class="section__action__btn action__btn__primary map_btn" href="https://goo.gl/maps/gTGQEveWXisuRWz68">Open in Maps</a>
+            </div>
+
+            <footer class="footer">
+                <ul>
+                    <li><a href="https://www.sofistadium.com/">SoFi Stadium © 2021</a></li>
+                    <li><a href="#">T&C </a></li>
+                    <li><a href="https://github.com/SubhojeetDas1107">github </a></li>
+                    <li><a href="https://www.linkedin.com/in/subhojeet-das-656871198/">LinkedIn</a></li>
+                    <li><a href="mailto:hbksubhojeetdas1107@gmail.com">Mail</a></li>
+                    <li><a href="https://www.facebook.com/subhojeet.das.11">facebook</a></li>
+                    <li><a href="https://www.instagram.com/subhojeetdas1107/">instagram</a></li>
+                </ul>
+            </footer>
+        </section>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js" integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/index.js"></script>
+</body>
+< </html>
